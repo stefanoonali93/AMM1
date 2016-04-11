@@ -1,0 +1,103 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 6-apr-2016, 20.04.54
+    Author     : stefano
+*/
+
+body {
+    background-color: beige;
+}
+
+h1 {
+    color: black;
+    background-color: #4CAF50;
+}
+
+h2 {
+    color: black;
+}
+h3 {
+    color: black;
+}
+
+
+
+p.constile {
+    font-family: "Times New Roman", Times, serif;
+}
+
+p.senzastile {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: violet;
+}
+
+input[type=text]:focus {
+    background-color: lightgray;
+}
+
+input[type=password]:focus {
+    background-color: lightgray;
+}
+
+input[type=url]:focus {
+    background-color: lightgray;
+}
+
+input[type = number]:focus {
+    background-color: lightgray;
+}
+
+
+nuovo
+
+
+div.container {
+    width: 100%;
+    margin: 0px;
+    border: 1px solid gray;
+    line-height: 150%;
+}
+
+div.header, div.footer {
+    padding: 0.5em;
+    color: white;
+    background-color: gray;
+    clear: left;
+}
+
+h1.header {
+    padding: 0;
+    margin: 0;
+}
+
+div.left {
+    float: left;
+    width: auto;
+    margin: 0;
+    padding: 1em;
+}
+
+div.content {
+    margin-left: 190px;
+    border-left: 1px solid gray;
+    padding: 1em;
+}
+
+/*responsive*/
+
+@media only screen and (min-width: 1024px){
+    
+    
+    
+}
